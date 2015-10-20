@@ -1,2 +1,2 @@
 build:
-	docker build -t starfox/osrm-docker .
+	docker build -t localshop/osrm-docker .

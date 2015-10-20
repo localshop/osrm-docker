@@ -31,10 +31,10 @@ docker run \
     -d \
     --volumes-from osrm-data \
     -p 5000:5000 \
-    starfox/osrm-docker:latest \
+    localshop/osrm-docker:latest \
     ./start.sh \
-        Barcelona \
-        "https://s3.amazonaws.com/metro-extracts.mapzen.com/barcelona_spain.osm.pbf"
+        GoldCoast \
+        "http://dev.pscott.com.au/gc.osm.pbf"
 ```
 
 The first argument is the name you want to give to the map. It's used mostly as a file name in the data storage.
